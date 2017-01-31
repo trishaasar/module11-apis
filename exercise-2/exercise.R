@@ -59,6 +59,7 @@ num.album
 # Write a function that allows you to specify a search type (artist, album, etc.), and a string,
 # that returns the album/artist/etc. page of interest
 ####### copied from github complete version #########
+##### does not run, has an error ####
 SpotifySearch <- function(type, string) {
   resource <- "/v1/search"
   uri = paste0(base.uri, resource)
